@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://www.happyshoping.top:3306/teache_pro?characterEncoding=utf-8&serverTimezone = UTC
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      #更新或者创建数据表结构
+      ddl-auto: update
+    #控制台显示格式化的SQL
+    properties:
+      hibernate.show_sql: true
+      hibernate.format_sql: true
+server:
+  port: 8848
